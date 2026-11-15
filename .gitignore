@@ -1,0 +1,29 @@
+# Local Python environments
+.venv/
+**/.venv/
+
+# Generated frontend and backend output
+frontend/node_modules/
+frontend/dist/
+backend/target/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local logs
+*.log
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Personal documents and the source map (the floor crops are used by the app)
+/Application_form_*.pdf
+/Multi-Floor University Campus Map.png
+
+# Generated modernization workspace data
+/.github/modernize/
+/backend/.github/modernize/
