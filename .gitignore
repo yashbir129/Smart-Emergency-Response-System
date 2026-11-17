@@ -19,6 +19,7 @@ __pycache__/
 .env.*
 !.env.example
 **/application-local.properties
+.vscode/settings.json
 
 # Personal documents and the source map (the floor crops are used by the app)
 /Application_form_*.pdf
